@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<strings.h>
+#include"main.h"
 /**
  * main - multiplies 2 arguments
  * @argc: number of args
