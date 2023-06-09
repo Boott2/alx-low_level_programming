@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 	if ((argc > 3) || (argc == 1))
 	{
 		printf("Error\n");
+		return (1);
 	}
 	else
 	{
@@ -26,6 +27,6 @@ int main(int argc, char *argv[])
 			result = result * x;
 		}
 		printf("%d\n", result);
+		return (0);
 	}
-	return (0);
 }
