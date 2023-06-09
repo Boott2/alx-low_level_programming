@@ -6,14 +6,14 @@
  * main - multiplies 2 arguments
  * @argc: number of args
  * @argv: the string args
- * Return: lalways 0
+ * Return: 0 if successful, 1 otherwise
 */
 int main(int argc, char *argv[])
 {
 	int result = 1;
 	int i;
 
-	if ((argc > 3) || (argc == 1))
+	if ((argc < 3) || (argc == 1))
 	{
 		printf("Error\n");
 		return (1);
